@@ -11,6 +11,7 @@ terraform {
     bucket = "k3s-tf-backend"
     key    = "tf-statefiles/dev/terraform.tfstate"
     region = "us-east-1"
+    profile = "k3-restrictive-no-mfa"
   }
 }
 
