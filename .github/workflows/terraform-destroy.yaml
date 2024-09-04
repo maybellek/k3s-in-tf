@@ -37,4 +37,4 @@ jobs:
 
       - name: Terraform Destroy
         if: ${{ steps.approval.outputs.approved == 'true' }}
-        run: cd terraform; ls -al; pwd; terraform destroy -auto-approve
+        run: cd k3s; ls -al; pwd; terraform destroy -auto-approve
