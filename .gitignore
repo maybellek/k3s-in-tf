@@ -1,4 +1,4 @@
 k3s/k3s-course.pub
 .DS_Store
-k3s/.terraform/*
+k3s/.terraform/
 k3s/.terraform.lock.hcl
